@@ -1,0 +1,248 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+.container{
+    background-color: rgb(237, 245, 229);
+    width: auto;
+    height: 200rem;
+    
+}
+.container  .nav{
+    background-color:rgb(231, 231, 94);
+    display: flex;
+     align-items: center;
+    text-decoration: none;
+    height: 5rem;
+    border-radius: 2rem;
+
+ }
+ 
+ .container  .nav ul input{
+    margin-top: 5px;
+     list-style-type: none;
+     width: 20rem;
+     height: 10px;
+       margin: 1rem 16rem 1rem 1rem ;
+       padding: 1rem;
+       border-radius: 5rem;
+
+     }
+    
+.container  .nav  h1{
+    color: blueviolet;    background-color: inherit;
+    padding-left: 1rem;
+    font-weight: bold;
+    font-size: x-large;
+   
+}
+.container  .nav img{
+  float: left;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin-left: 2rem;
+
+}
+
+ .container  .nav ul{
+  background-color: inherit;
+    display: flex;
+    justify-content: center;
+ 
+ }
+ .container  .nav ul li{
+    background-color: inherit;
+   list-style-type: none;
+   padding: 1.5rem 1rem 1rem 1rem;
+ }
+
+ .container  .nav ul li a{
+    background-color: inherit;
+    text-decoration: none;
+   color: rgb(105, 24, 211);
+   font-size: x-large;
+
+ }
+
+ .container .header{
+    height: 10rem;
+    text-align: center;
+    margin: 2rem 20rem;
+ }
+ 
+ .container .header h2{
+  color: blueviolet;
+  padding: 1rem 0;
+  font-size: xx-large;
+   
+ }
+
+
+ .container .main{
+ 
+  background-color:rgb(232, 232, 197);   width: 80%;
+   margin: 0 auto;
+   padding: 1rem 2rem ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+ }
+ .container .main h1{
+  color: blueviolet;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 2rem;
+ }
+ .container .main .article{
+  background-color: lightblue;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid rgb(86, 55, 177);
+    border-radius: 2rem;
+ }
+ .container .main .article1{
+ margin-bottom: 20px;
+     
+ }
+ .container .main .article img{
+  height: 20rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius:   2rem 2rem 0rem 0rem;
+  
+}
+.container .main div {
+   text-align: center;
+  
+}
+.container .main div .btn1{
+  background-color: blueviolet;
+  padding: 15px 50px;
+  font-size: large;
+  border-radius: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+
+/* css form */
+.container .main .form{
+  height: 30rem;
+  background-color: rgb(190, 138, 238) ;
+  margin: 0rem 15rem;
+  border-radius: 2rem;
+  display: flex;
+  font-size:x-large;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.container .main .form label{
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-size:x-large;
+}
+.container .main .form input{
+   padding: 15px;
+   border-radius: 20px;
+}
+.container .main .form input:last-child{
+  padding: 50px 20px;
+  border: 1px solid rgb(192, 29, 29);
+}
+.container .main .form .btn button{
+
+  border-radius: 20px;
+  background-color:rgb(231, 231, 94);
+  padding: 20px 80px;
+  border-radius: 5rem;
+  margin-top: 2rem;
+ }
+
+
+
+
+
+
+
+/* footer */
+footer{
+  padding: 20px;
+  background-color:rgb(231, 231, 94);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: space-between;
+ 
+}
+
+footer .container{
+  display: flex;
+  width: auto;
+flex-direction: row;
+padding-left: 50px;
+border-radius: 2rem;
+
+}
+footer .container .blog-info{
+  
+  padding: 2rem 2rem 0rem 0rem;
+}
+footer .container .blog-info  h2{
+  color: blueviolet;
+}
+footer .container .blog-info img{
+  float: left;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem 1rem 2rem 1rem;
+  
+}
+footer .container .section{
+  padding:10px 0 0 10px;
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  justify-content: space-around;
+  
+
+}
+footer .container .section .sub{
+padding-right: 50px;
+
+width: 150px;
+display: flex;
+flex-direction: column;
+height: 150px;
+  
+
+}
+footer .container .section .sub h4{ 
+  color: blueviolet;
+     padding-bottom:10px ;
+ }
+ footer .container .section .sub ul li{ 
+      padding-bottom:10px ;
+  }
+li{
+  list-style-type: none;
+}
+footer .container .qoraal h2 span{
+  color: blueviolet;
+}
+footer h3{
+  font-weight:400;
+  color: blueviolet;
+  padding-bottom: 10px;
+  padding-top:15px ;
+  font-weight:bolder ;
+}
