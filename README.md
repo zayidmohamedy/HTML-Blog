@@ -21,3 +21,8 @@ It should include the following elements:
   <a href="blog-sketch.png" target="blank">
     <img src="blog-sketch.png" style="border: 1px solid #bababa;">
   </a>
+
+
+
+## My design
+![image](https://user-images.githubusercontent.com/65617964/196915379-f71ccf49-a8fa-4b2b-a574-789b87f5423f.png)
